@@ -26,3 +26,16 @@ int main(){
 	return 0;
 }
 ```
+- 如果是二位数组该怎嘛办？？很简单，就是在一位数组的代码上加循环行数即可。
+```cpp
+#include<bits/stdc++.h>
+using namespace std;
+
+const int maxn=105;
+char a[maxn][maxn];
+int main(){
+	for(int i=0;i<20;i++)cin.getline(a[i],21);//输入一个含有空格的字符数组 
+	//注意cin.getline(a[i],21);读入的是a[i][0~19]位。
+	return 0;
+}
+```
