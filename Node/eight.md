@@ -36,11 +36,11 @@ int main()
 ```cpp
 string s,as;
 istringstream ss(s);
-ss>>as;
+ss >> as;
 ```
 - ostringstream 输出流
 ```cpp
 ostringstream sss(s);//string s中数据拷贝到sss流中
-sss<<'1';//覆盖式写入，若原来为qwe,写入后为1we
-cout<<sss.str();//输出流里面的东西
+sss << '1';//覆盖式写入，若原来为qwe,写入后为1we
+cout << sss.str();//输出流里面的东西
 ```
