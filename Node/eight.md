@@ -32,7 +32,7 @@ int main()
     return 0;
 }
 ```
-- istringstream 输入流
+- istringstream 输入流,istringstream可以用于分割被空格、制表符等符号分割的字符串
 ```cpp
 string s,as;
 istringstream ss(s);
