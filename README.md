@@ -3,4 +3,4 @@
 ## 目录
 
 - 第 II 部分 : C++标准库
-- 第八章 ：IO库 [笔记]()
+- 第八章 ：IO库 [笔记](https://github.com/lzy2022cg/C-Primer/blob/main/Node/8.1.md)
