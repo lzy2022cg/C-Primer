@@ -7,7 +7,6 @@
 
 ##stringstream
 | 操作 | 解释 |
-| ----------- | ----------- |
 | sstream | strm是一个未绑定的stringstream对象。sstream |
 关于istringstream类的例子
 ```cpp
